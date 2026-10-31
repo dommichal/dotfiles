@@ -1,0 +1,15 @@
+[init]
+    defaultBranch = main
+
+[alias]
+    cp = cherry-pick
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[core]
+    editor = nvim
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[url "git@gist.github.com:"]
+    insteadOf = https://gist.github.com/
+

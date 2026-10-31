@@ -1,0 +1,63 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "format_on_save": "on",
+  "git_panel": {
+    "dock": "left",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "cli_default_open_behavior": "existing_window",
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "zed",
+  },
+  "agent": {
+    "profiles": {
+      "ask": {
+        "name": "Ask",
+        "tools": {
+          "create_thread": true,
+          "diagnostics": true,
+          "ask_user": true,
+          "fetch": true,
+          "list_agents_and_models": true,
+          "list_directory": true,
+          "find_path": true,
+          "find_references": true,
+          "get_code_actions": true,
+          "go_to_definition": true,
+          "read_file": true,
+          "grep": true,
+          "skill": true,
+          "spawn_agent": true,
+          "search_web": true,
+          "terminal": true,
+        },
+        "enable_all_context_servers": false,
+        "context_servers": {},
+      },
+    },
+    "thinking_display": "always_collapsed",
+    "default_profile": "write",
+    "dock": "right",
+    "threads_sidebar": {
+      "position": "right",
+    },
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "Gruvbox Light Hard",
+    "dark": "Gruvbox Dark Hard",
+  },
+}

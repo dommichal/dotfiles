@@ -1,0 +1,19 @@
+configuration {
+    modi: "run,drun,window";
+    icon-theme: "Papirus";
+    show-icons: true;
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+}
+
+@theme "gruvbox-dark-soft"
+
+window {
+    border: 0px;
+    width: 40%;
+}
+
+
